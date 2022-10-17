@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class MultidimentionalArray {
     public static void main(String[] args) {
-        int arr[][]={{1,2,3,4},{3,2,1}};
-        int arrr[][]=new int[3][];
+        int [][] arr={{1,2,3,4},{3,2,1}};
+
 int sum=0;
         for (int []w:arr) {
           sum+=w.length;
@@ -18,8 +18,6 @@ int index=0;
                 arr2[index]=z;
                 index++;
             }
-
-
         }
         System.out.println(Arrays.toString(arr2));
     }
